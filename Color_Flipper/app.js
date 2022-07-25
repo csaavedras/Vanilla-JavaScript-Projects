@@ -11,7 +11,7 @@ function changeBackgroundColor() {
         const randomNumber = Math.floor(Math.random() * 255);
         arr.push(randomNumber);
     }
-    title.innerHTML = `Background Color: RGB (${arr[0]}, ${arr[1]}, ${arr[2]})`;
+    title.innerHTML = `RGB (${arr[0]}, ${arr[1]}, ${arr[2]})`;
     background.style.backgroundColor = `rgb(${arr[0]}, ${arr[1]}, ${arr[2]})`;
     btn.style.backgroundColor = `rgb(${arr[0]}, ${arr[1]}, ${arr[2]})`;
 }
