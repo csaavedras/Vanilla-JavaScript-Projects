@@ -10,6 +10,7 @@ const randomTestimonials = document.querySelector('.randomTestimonials');
 // AddEventListeners
 leftBtn.addEventListener('click', prevButton);
 rightBtn.addEventListener('click', nextButton);
+randomTestimonials.addEventListener('click', randomContent);
 
 const reviews = [
     {
@@ -42,14 +43,20 @@ const reviews = [
     },
 
 ]
-
+// Setup Current Item
 let currentItem = 0;
-/* The DOMContentLoaded event fires when the initial 
-   HTML document has been completely loaded and parsed, 
-   without waiting for stylesheets, images, and subframes to finish loading.*/
+
+/* DOMContentLoaded */
 window.addEventListener('DOMContentLoaded', function(){
     loadContent(currentItem);
 })
+
+function randomContent(){
+    // Set random number
+    let randomNumber = Math.floor(Math.random() * reviews.length);
+    currentItem = randomNumber;
+    loadContent(currentItem)
+}
 
 function prevButton(){
  currentItem--;
