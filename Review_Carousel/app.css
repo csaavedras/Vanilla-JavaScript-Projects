@@ -4,10 +4,23 @@ body {
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  display: grid;
-  place-items: center;
-  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   text-align: center;
+  background-color: #c5c9df;
+  color: #141a41;
+}
+button {
+  background-color: #141a41;
+  color: #fff;
+  border: 0;
+  padding: 0.5em 3em;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 1;
 }
 img {
   width: 200px;
@@ -16,15 +29,51 @@ img {
   object-fit: cover;
 }
 .card {
-  width: 80%;
-  padding: 1em 2em;
+  width: 50%;
+  padding: 4em 2em;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background: linear-gradient(
+    139.03deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 101.67%,
+    #cbcaff 101.67%
+  );
+  mix-blend-mode: normal;
+  border-radius: 24px;
+  position: relative;
+  z-index: 1000;
 }
 
 .card_testimonial {
   text-align: center;
+}
+.arrowButtons {
+  margin-bottom: 1em;
+}
+.circle_shape {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  z-index: 0;
+}
+.circle_1 {
+  background: rgba(94, 255, 197, 0.6);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  filter: blur(120px);
+}
+.circle_2 {
+  background: rgba(94, 148, 255, 0.6);
+  filter: blur(114px);
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+.card_footer {
+  z-index: 1;
 }
