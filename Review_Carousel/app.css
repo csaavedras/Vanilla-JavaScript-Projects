@@ -2,4 +2,29 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 50vh;
+  text-align: center;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card {
+  width: 80%;
+  padding: 1em 2em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card_testimonial {
+  text-align: center;
 }
