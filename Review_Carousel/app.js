@@ -12,12 +12,13 @@ leftBtn.addEventListener('click', prevButton);
 rightBtn.addEventListener('click', nextButton);
 randomTestimonials.addEventListener('click', randomContent);
 
+// All Reviews
 const reviews = [
     {
         id: 1,
         name: 'Jimmy Nilov',
         job: 'Frontend Developer',
-        text: 'Im baby meggings twee health goth +1- Bicycle rights tumeric charttreus before ther sold out',
+        text: 'Creative Front-End Developer offering 9+ years of experience providing high-impact web solutions for diverse industry organizations. Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies. Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer.',
         image: './pexels-juan-gomez-2589653.jpg',
     },
     {
@@ -43,6 +44,7 @@ const reviews = [
     },
 
 ]
+
 // Setup Current Item
 let currentItem = 0;
 

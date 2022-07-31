@@ -97,3 +97,18 @@ img {
 .card_footer {
   z-index: 1;
 }
+
+@media (max-width: 700px) {
+  body {
+    height: auto;
+  }
+  .title {
+    margin-top: 1em;
+  }
+  .card {
+    width: 80%;
+  }
+  button {
+    padding: 0.5em 2em;
+  }
+}
