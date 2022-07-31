@@ -19,28 +19,28 @@ const reviews = [
         name: 'Jimmy Nilov',
         job: 'Frontend Developer',
         text: 'Creative Front-End Developer offering 9+ years of experience providing high-impact web solutions for diverse industry organizations. Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies. Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer.',
-        image: './pexels-juan-gomez-2589653.jpg',
+        image: './img/perfil_img/pexels-juan-gomez-2589653.jpg',
     },
     {
         id: 2,
         name: 'Masha Raymers',
         job: 'UI/UX',
         text: 'A UX/UI Designer is a professional dedicated to finding an easy, intuitive, and friendly way to solve a problem based on the tastes, needs, and opinions of the users of a product or service. In other words, they’re the person in charge of designing the experience of a client and making sure it’s optimal.',
-        image: './pexels-masha-raymers-2726111.jpg',
+        image: './img/perfil_img/pexels-masha-raymers-2726111.jpg',
     },
     {
         id: 3,
         name: 'Sara Barret',
         job: 'Backend Developer',
         text: 'Backend developers work on databases, scripting languages, and website design to create the logic upon which websites and web app function. Tasks backend developers tackle include cloud computing  and API integration, security configurations, content management system deployment and maintenance and web server technologies. ',
-        image: './pexels-pixabay-220453.jpg',
+        image: './img/perfil_img/pexels-pixabay-220453.jpg',
     },
     {
         id: 4,
         name: 'Andrea Psiacquadio',
         job: 'Full Stack Developer',
         text: 'You know the back end, you know the front end, and you know everything in the middle. This guide will help you show IT recruiters that you’re the best full stack dev for the job.',
-        image: './pexels-andrea-piacquadio-3763152.jpg',
+        image: './img/perfil_img/pexels-andrea-piacquadio-3763152.jpg',
     },
 
 ]
