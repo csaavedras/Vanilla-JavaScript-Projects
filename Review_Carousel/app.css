@@ -13,23 +13,42 @@ body {
   background-color: #c5c9df;
   color: #141a41;
 }
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  margin-bottom: 2em;
+}
+.title_job {
+  padding-top: 10px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
 button {
   background-color: #141a41;
   color: #fff;
   border: 0;
-  padding: 0.5em 3em;
+  padding: 0.5em 5em;
   border-radius: 15px;
   cursor: pointer;
   z-index: 1;
+  margin-right: 1em;
+  font-weight: bold;
 }
 img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 2em;
 }
 .card {
   width: 50%;
+  max-width: 800px;
   padding: 4em 2em;
   height: auto;
   display: flex;
@@ -50,6 +69,7 @@ img {
 
 .card_testimonial {
   text-align: center;
+  margin: 2em 0;
 }
 .arrowButtons {
   margin-bottom: 1em;
