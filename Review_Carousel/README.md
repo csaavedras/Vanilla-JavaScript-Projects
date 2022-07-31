@@ -37,7 +37,7 @@
 ## Overview
 
 ![screenshot](<./img/screen_shot/Screen Shot 2022-07-31 at 07.46.34.png>)
-(<./img/screen_shot/Screen Shot 2022-07-31 at 08.03.29.png>)
+<img src='./img/screen_shot/Screen Shot 2022-07-31 at 08.03.29.png'>
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
